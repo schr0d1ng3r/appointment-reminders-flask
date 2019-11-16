@@ -1,5 +1,5 @@
 import flask
-import flask.ext.sqlalchemy
+import flask_whooshalchemy
 
 from celery import Celery
 from views.appointment import (
